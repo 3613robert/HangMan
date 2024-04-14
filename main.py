@@ -1,6 +1,7 @@
 import random
 from hangman import HANGMAN
 import pandas as pd
+from github import Github
 
 def generate_word():
     data = pd.read_csv('words.csv', header=None)
